@@ -1,0 +1,187 @@
+h2 {
+  font-family: "Gentium Basic", serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Gentium Basic", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.section-subtitle {
+  font-family: "Open Sans", serif;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+/* Chrome Colors */
+
+.chrome-red {
+  color: #ea4335;
+}
+.chrome-blue {
+  color: #4285f4;
+}
+.chrome-yellow {
+  color: #fbbc05;
+}
+.chrome-green {
+  color: #34a853;
+}
+
+.chrome-black {
+  color: black;
+}
+
+/* Main page */
+
+.main-title {
+  font-family: "Gentium Basic", serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-family: "Open Sans", serif;
+  font-size: 2rem;
+  padding-bottom: 4rem;
+}
+
+/* #title-container {
+  padding: 7% 15%;
+  background-color: #fbbc05;
+  color: white;
+} */
+
+#title-container {
+  padding: 7% 30%;
+  background-color: #4285f4;
+  background-image: linear-gradient(19deg, #4285f4 0%, #21acff 100%);
+
+  color: white;
+}
+
+.buttons-container {
+  padding: 0% 15% 0;
+}
+
+.small-logo {
+  width: 70px;
+  margin-bottom: 1rem;
+}
+
+/* How we develop */
+#how-we-develop {
+  background-color: #e0e0e0;
+  padding: 7% 15%;
+}
+
+.dev-tech-container {
+  text-align: center;
+  padding: 0 5%;
+}
+
+.dev-icons {
+  margin-bottom: 1rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #34a853;
+  background-image: linear-gradient(19deg, #28893f 0%, #34a853 100%);
+
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 5%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 20%;
+}
+
+/* chrome extension examples */
+
+#ce-examples {
+  background-color: #e0e0e0;
+  padding: 7% 15%;
+}
+
+/* Contact us */
+#contact-us {
+  background-color: #4285f4;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+/* chrome extension tools */
+
+#ce-tools {
+  padding: 7% 15%;
+  background-color: #eeeeee;
+}
+
+.wrap {
+  display: flex;
+  background: white;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.ico-wrap {
+  margin: auto;
+}
+
+.ce-tools-img {
+  margin: 1rem;
+  padding-right: 0rem;
+  width: 128px;
+  border-radius: 0.5rem;
+  box-shadow: 7px 7px 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+.display-5 {
+  font-family: "Gentium Basic", serif;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+
+.text1 {
+  font-family: "Open Sans", serif;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+  font-size: 1rem;
+}
+
+/* Footer */
+
+.footer-section {
+  background-color: #fbbc05;
+  padding: 2rem;
+}
+
+.ftr-icons {
+  margin: 1rem;
+  color: white;
+}

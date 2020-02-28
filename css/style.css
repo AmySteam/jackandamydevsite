@@ -1,0 +1,274 @@
+body {
+  font-family: "Open Sans", serif;
+}
+
+h2 {
+  font-family: "Gentium Basic", serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Gentium Basic", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+/* Chrome Colors */
+
+.chrome-red {
+  color: #ea4335;
+}
+.chrome-blue {
+  color: #4285f4;
+}
+.chrome-yellow {
+  color: #fbbc05;
+}
+.chrome-green {
+  color: #34a853;
+}
+
+.chrome-black {
+  color: black;
+}
+
+/* Main page */
+
+.main-title {
+  font-family: "Gentium Basic", serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-family: "Open Sans", serif;
+  font-size: 2rem;
+  padding-bottom: 4rem;
+}
+
+#title-container {
+  padding: 7% 30%;
+  background-color: #4285f4;
+  background-image: linear-gradient(19deg, #4285f4 0%, #21acff 100%);
+
+  color: white;
+}
+
+.buttons-container {
+  padding: 0% 15% 0;
+}
+
+.small-logo {
+  width: 70px;
+  margin-bottom: 1rem;
+}
+
+/* How we develop */
+#how-we-develop {
+  background-color: #e0e0e0;
+  padding: 7% 15%;
+}
+
+.dev-tech-container {
+  text-align: center;
+  padding: 0 5%;
+}
+
+.dev-icons {
+  margin-bottom: 1rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #34a853;
+  background-image: linear-gradient(19deg, #28893f 0%, #34a853 100%);
+
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 5%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 20%;
+}
+
+/* chrome extension examples */
+
+#ce-examples {
+  background-color: #e0e0e0;
+  padding: 7% 15%;
+}
+
+.example-card:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition: box-shadow 0.6s ease-in;
+}
+
+/* Contact us */
+#contact-us {
+  background-color: #4285f4;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+/* chrome extension tools */
+
+#ce-tools {
+  padding: 7%;
+  background-color: #eeeeee;
+}
+
+/* General */
+.overflow {
+  overflow: hidden;
+}
+.corner:before {
+  right: 100%;
+}
+.corner:after {
+  left: 100%;
+}
+
+/* RED - Color */
+.corner-red {
+  height: 23px;
+  margin: 5px;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+  padding: 0em;
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+  background: red;
+}
+.corner-red:before,
+.corner-red:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin: 0 -1px;
+  width: 200%;
+  height: 100%;
+  background: red;
+}
+
+/* BLUE - Color */
+.corner-blue {
+  height: 23px;
+  margin: 5px;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+  padding: 0em;
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+  background: #4285f4;
+}
+.corner-blue:before,
+.corner-blue:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin: 0 -1px;
+  width: 200%;
+  height: 100%;
+  background: #4285f4;
+}
+
+/* GREEN - Color */
+.corner-green {
+  height: 23px;
+  margin: 5px;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+  padding: 0em;
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+  background: green;
+}
+.corner-green:before,
+.corner-green:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin: 0 -1px;
+  width: 200%;
+  height: 100%;
+  background: green;
+}
+
+/* YELLOW - Color */
+.corner-yellow {
+  height: 23px;
+  margin: 5px;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+  padding: 0em;
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+  background: yellow;
+}
+.corner-yellow:before,
+.corner-yellow:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  margin: 0 -1px;
+  width: 200%;
+  height: 100%;
+  background: yellow;
+}
+
+/* Footer */
+
+.footer-section {
+  background-color: #fbbc05;
+  padding: 2rem;
+  color: white;
+}
