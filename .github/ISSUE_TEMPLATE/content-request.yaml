@@ -6,7 +6,7 @@ assignees: AmySteam
 body:
 - type: markdown
   attributes:
-    value: "Thanks for requesting a new Chrome Extension tutorial, please fill out this form!"
+    value: "## Thank you for requesting a new Chrome Extension tutorial, please fill out this form!"
 - type: textarea
   attributes:
     label: What would this extension do?
